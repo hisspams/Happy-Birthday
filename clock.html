@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Clock</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .clock {
+            display: flex;
+        }
+        .flip-card {
+            background-color: pink;
+            border-radius: 15px;
+            margin: 0 5px;
+            width: 150px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 80px;
+            color: white;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+                        0 6px 20px rgba(0, 0, 0, 0.19);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .flip-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+                        0 12px 40px rgba(0, 0, 0, 0.19);
+        }
+        .bottom-text {
+            position: absolute;
+            bottom: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="flip-card">
+            <span>06</span>
+            <span class="bottom-text">TUE</span>
+        </div>
+        <div class="flip-card">
+            <span>08</span>
+            <span class="bottom-text">AUGUST</span>
+        </div>
+    </div>
+</body>
+</html>
