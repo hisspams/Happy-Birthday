@@ -1,4 +1,4 @@
-/* Reset CSS */
+/* Existing CSS */
 * {
     margin: 0;
     padding: 0;
@@ -40,31 +40,23 @@ body {
     object-fit: cover;
 }
 
-
 /* Navbar */
-
-.nav-item1 {
+.nav-item1, .nav-item2 {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     color: white;
     font-size: 1rem;
     padding-right: 20px;
 }
-
-.nav-item2 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    color: white;
-    font-size: 1rem;
-    padding-right: 20px;
-}
-
 
 /* Clock */
 .clock {
     display: flex;
-    margin-left: 7%;
-    margin-top: 60px;
+    justify-content: center; /* Center the clock horizontally */
+    align-items: center; /* Center the clock vertically */
+    margin: 60px auto; /* Center the clock and add top margin */
+    width: 100%; /* Full width */
+    max-width: 90%; /* Limit maximum width */
 }
 
 .flip-card {
@@ -92,15 +84,7 @@ body {
                 0 12px 40px rgba(0, 0, 0, 0.19);
 }
 
-.bottom-text-left {
-    margin-right: 70%;
-    position: absolute;
-    bottom: 10px;
-    font-size: 20px;
-}
-
-.bottom-text-right {
-    margin-left: 50%;
+.bottom-text-left, .bottom-text-right {
     position: absolute;
     bottom: 10px;
     font-size: 20px;
@@ -110,75 +94,57 @@ body {
 .letter {
     width: 50%;
     position: relative;
-    margin-left: 34%;
+    margin: 0 auto; /* Center the letter */
     bottom: 200px;
 }
 
 .row {
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin: 0;
     display: flex;
     align-items: flex-start;
 }
 
-h1 {
+h1, h2 {
     font-family: "Dancing Script", cursive;
     font-weight: 400;
     color: white;
+}
+
+h1 {
     font-size: 3.5rem;
-    
 }
 
 h2 {
-    font-family: "Dancing Script", cursive;
-    font-weight: 400;
-    color: white;
     font-size: 1.5rem;
-    
 }
 
 /* Footer */
-
-
 .social {
     width: 30px;
     margin-left: 95%;
     transition: .5s all ease-in-out;
-    margin-top: 0px;
     position: relative;
     bottom: 200px;
-    
 }
 
 .social:hover {
     transform: scale(1.5);
 }
 
-
-
 /* Responsive styles */
 @media (max-width: 768px) {
     .row {
         flex-direction: column;
         align-items: center;
-        text-align: center;
     }
 
     .clock {
-        margin: 0 auto;
-        margin-top: 60px; /* Maintain original top margin */
-        justify-content: center;
-        width: 100%;
-    }
-
-    .bottom-text-left, .bottom-text-right {
-        position: absolute;
-        bottom: 10px;
+        margin: 60px auto; /* Maintain original top margin */
+        flex-direction: column; /* Stack the flip-cards vertically */
     }
 
     .letter {
         width: 80%;
-        margin: 0 auto;
         margin-top: 30px; /* Increased margin-top for more space */
         text-align: center;
         bottom: 0;
@@ -186,30 +152,23 @@ h2 {
 
     h1 {
         font-size: 2.5rem;
-       
     }
 
     h2 {
         font-size: 1.2rem;
     }
 
-
     .social {
         margin-left: 50%;
         margin-top: 50%;
         width: 4%;
     }
-
-
-    
 }
 
 @media (max-width: 480px) {
     .clock {
-        margin: 0 auto;
-        margin-top: 20px;
+        margin: 20px auto;
         flex-direction: column;
-        text-align: center;
     }
 
     .letter {
@@ -217,7 +176,6 @@ h2 {
         margin-top: 40px; /* Increased margin-top for more space */
     }
 
-    
     h1 {
         font-size: 2rem;
     }
@@ -225,7 +183,7 @@ h2 {
     h2 {
         font-size: 1rem;
     }
-    
+
     .social {
         margin-left: 50%;
         margin-top: 50%;
@@ -233,39 +191,8 @@ h2 {
     }
 }
 
-@media (max-width:1180px)
-{
-    .navbar
-    {
+@media (max-width: 1180px) {
+    .navbar {
         text-align: center;
     }
-    
 }
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
-
-
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
-
-
