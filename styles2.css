@@ -168,6 +168,7 @@ h2 {
         margin: 0 auto;
         margin-top: 60px; /* Maintain original top margin */
         justify-content: center;
+        width: 100%;
     }
 
     .bottom-text-left, .bottom-text-right {
