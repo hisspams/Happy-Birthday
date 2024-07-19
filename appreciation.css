@@ -14,15 +14,9 @@ html, body {
 
 /* Basic styles */
 body {
-    
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
 
 /* Pic Container */
 .container-top {
@@ -37,9 +31,7 @@ body {
     background-size: cover; /* or contain, depending on your preference */
     background-position: center;
     background-repeat: no-repeat;
-    
 }
-    
 
 .pink-sky {
     position: absolute;
@@ -52,64 +44,55 @@ body {
     object-fit: cover;
 }
 
-
 .p {
     margin-bottom: 180px;
-  }
-
+}
 
 .end-para {
     margin-right: 30%;
 }
 
-  
-  h3 {
+h3 {
     font-family: "Concert One", sans-serif;
     font-weight: 400;
-    color:#f369a2;
+    color: #f369a2;
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
     text-shadow: 
-                1px 1px 2px #bbb,  /* Light shadow for highlight */
-                -1px -1px 2px #fff; /* Dark shadow for depth */
-    
-  }
+        1px 1px 2px #bbb,  /* Light shadow for highlight */
+        -1px -1px 2px #fff; /* Dark shadow for depth */
+}
 
-
-  .letter {
+.letter {
     font-family: "Concert One", sans-serif;
     font-weight: 400;
-    color:#f369a2;
+    color: #f369a2;
     font-size: 40px;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: right;
     text-shadow: 
-                1px 1px 2px #bbb,  /* Light shadow for highlight */
-                -1px -1px 2px #fff; /* Dark shadow for depth */
-  }
+        1px 1px 2px #bbb,  /* Light shadow for highlight */
+        -1px -1px 2px #fff; /* Dark shadow for depth */
+}
 
-
-  .letter2 {
+.letter2 {
     font-family: "Concert One", sans-serif;
     font-weight: 400;
-    color:#f369a2;
+    color: #f369a2;
     font-size: 40px;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: left;
     text-shadow: 
-                1px 1px 2px #bbb,  /* Light shadow for highlight */
-                -1px -1px 2px #fff; /* Dark shadow for depth */
-  }
+        1px 1px 2px #bbb,  /* Light shadow for highlight */
+        -1px -1px 2px #fff; /* Dark shadow for depth */
+}
 
-  
-
-
-  .skill-row {
+.skill-row {
     padding-top: 20px;
     width: 50%;
     margin: 50px auto 100px auto;
@@ -117,12 +100,11 @@ body {
     line-height: 2;
     font-family: "Concert One", sans-serif;
     font-weight: 400;
-    color:rgb(211, 27, 103);
+    color: rgb(211, 27, 103);
     font-size: 20px;
-    
-  }
+}
 
-  .skill-row-bottom {
+.skill-row-bottom {
     padding-top: 20px;
     width: 90%;
     margin: 50px auto 100px auto;
@@ -130,53 +112,47 @@ body {
     line-height: 2;
     font-family: "Concert One", sans-serif;
     font-weight: 400;
-    color:rgb(211, 27, 103);
+    color: rgb(211, 27, 103);
     font-size: 20px;
-    
-  }
+}
 
-  .skill-row-last {
+.skill-row-last {
     padding-top: 20px;
     width: 90%;
     margin: 50px auto 100px auto;
-    
     line-height: 2;
     font-family: "Concert One", sans-serif;
     font-weight: 400;
-    color:rgb(211, 27, 103);
+    color: rgb(211, 27, 103);
     font-size: 20px;
-    
-  }
+}
 
-
-  .pic1 {
+.pic1 {
     width: 30%;
     float: left;
     margin-right: 40px;
     position: relative;
     bottom: 20px;
     top: 25px;
-  }
- 
-  .pic2 {
+}
+
+.pic2 {
     width: 30%;
     float: right;
     position: relative;
     bottom: 30px;
     left: 50px;
-  }
+}
 
-  .pic5 {
+.pic5 {
     width: 20%;
     float: left;
     margin-right: 40px;
     margin-left: 45px;
     position: relative;
-    
-  }
+}
 
-
-  .pic6 {
+.pic6 {
     width: 30%;
     float: left;
     margin-right: 45px;
@@ -184,12 +160,9 @@ body {
     position: relative;
     left: 67%;
     bottom: 470px;
-    
-  }
-
+}
 
 .container-middle {
-    
     background-color: #FFE6E6;
     position: absolute;
     top: 149%;
@@ -204,30 +177,26 @@ body {
 .container-bottom {
     background-color: #FFCBCB;
     position: absolute;
-    top:248%;
+    top: 248%;
     left: 50%;
     width: 100%;
     height: 100%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     object-fit: cover;
-    
 }
-
 
 .container-last {
     background-color: #FFEFEF;
     position: absolute;
-    top:326%;
+    top: 326%;
     left: 50%;
     width: 100%;
     height: 60%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     object-fit: cover;
-    
 }
-
 
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -236,12 +205,20 @@ body {
         top: auto;
         left: auto;
         transform: none;
+        height: auto;
+        padding: 20px 0;
     }
 
     .pink-sky {
         width: 100%;
         height: auto;
         transform: none;
+    }
+
+    h3, .letter, .letter2 {
+        font-size: 24px;
+        text-align: center;
+        margin: 20px 0;
     }
 
     .skill-row, .skill-row-bottom, .skill-row-last {
@@ -260,12 +237,9 @@ body {
         bottom: auto;
     }
 
-    .letter, .letter2 {
-        text-align: center;
-    }
-
     .end-para {
         margin-right: auto;
         margin-left: auto;
+        text-align: center;
     }
 }
