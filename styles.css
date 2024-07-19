@@ -51,6 +51,7 @@ h1 {
     color: white;
     font-size: 3.5rem;
     margin: 50px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -59,6 +60,7 @@ h2 {
     color: #EEEDEB;
     font-size: 1.5rem;
     margin-bottom: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Body and Letter */
