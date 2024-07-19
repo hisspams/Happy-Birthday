@@ -14,7 +14,6 @@ html, body {
 
 /* Basic styles */
 body {
-    
     margin: 0;
     padding: 0;
 }
@@ -40,9 +39,6 @@ body {
     object-fit: cover;
 }
 
-
-
-
 .bdayboy {
     font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
@@ -61,16 +57,11 @@ body {
     color: rgb(245, 193, 219);
 }
 
-
-
-
 /* Clock */
-
 .row {
     margin-left: 0px;
     margin-top: 0px;
 }
-
 
 .clock {
     display: flex;
@@ -117,8 +108,6 @@ body {
     font-size: 20px;
 }
 
-
-
 /* Letter */
 .letter {
     width: 50%;
@@ -127,15 +116,12 @@ body {
     bottom: 200px;
 }
 
-
-
 h1 {
     font-family: "Dancing Script", cursive;
     font-weight: 400;
     color: white;
     font-size: 3.5rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    
 }
 
 h2 {
@@ -144,12 +130,9 @@ h2 {
     color: white;
     font-size: 1.5rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    
 }
 
 /* Footer */
-
-
 .social {
     width: 30px;
     margin-left: 95%;
@@ -157,78 +140,66 @@ h2 {
     margin-top: 0px;
     position: relative;
     bottom: 200px;
-    
 }
 
 .social:hover {
     transform: scale(1.5);
 }
 
-
-
 /* Responsive styles */
 @media (max-width: 768px) {
-    
     .row {
         justify-content: center;
-        margin: 30%;
+        margin: 0;
         align-items: center;
     }
-
 
     .flip-card {
         flex-direction: column;
         align-items: center;
         margin: 10px;
-        
     }
 
     .clock {
-        margin: 20px; /* Maintain original top margin */
-        flex-direction: column; /* Stack the flip-cards vertically */
-        
+        margin: 20px;
+        flex-direction: column;
     }
-
-    
 
     .letter {
         width: 80%;
         margin: 0 auto;
-        margin-top: 30px; /* Increased margin-top for more space */
+        margin-top: 30px;
         text-align: center;
         bottom: 0;
     }
 
     h1 {
         font-size: 2.5rem;
-       
     }
 
     h2 {
         font-size: 1.2rem;
     }
 
-
     .social {
         margin-left: 50%;
-        margin-top: 50%;
+        margin-top: 20px;
         width: 4%;
     }
 
     .bdayboy {
-        top: 130px;
-        margin-left: 180px;
+        top: auto;
+        margin-left: 0;
         font-size: 1rem;
-        
+        margin-top: 20px;
+        text-align: center;
     }
-    
 }
 
 @media (max-width: 480px) {
-    
     .row {
         justify-content: center;
-        margin: 30%;
+        margin: 0;
         align-items: center;
     }
 
@@ -236,7 +207,6 @@ h2 {
         justify-content: center;
         margin: 10px;
         align-items: center;
-        
     }
 
     .clock {
@@ -245,13 +215,11 @@ h2 {
         align-items: center;
     }
 
-
     .letter {
         width: 90%;
-        margin-top: 30px; /* Increased margin-top for more space */
+        margin-top: 30px;
     }
 
-    
     h1 {
         font-size: 2rem;
     }
@@ -259,27 +227,18 @@ h2 {
     h2 {
         font-size: 1rem;
     }
-    
+
     .social {
         margin-left: 50%;
-        margin-top: 50%;
+        margin-top: 20px;
         width: 4%;
     }
 
     .bdayboy {
-        top: 130px;
-        margin-left: 180px;
+        top: auto;
+        margin-left: 0;
         font-size: 1rem;
+        margin-top: 20px;
+        text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
