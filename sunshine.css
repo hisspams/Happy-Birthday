@@ -59,12 +59,12 @@ h2 {
     }
 
     h1 {
-        font-size: 2.5rem; /* Adjust font size for smaller screens */
-        margin: 20px 0; /* Adjust margin for smaller screens */
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        margin: 20px 0 10px 0; /* Adjust margin for smaller screens */
     }
 
     h2 {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        margin: 10px 0 20px 0; /* Adjust margin for smaller screens */
     }
 }
