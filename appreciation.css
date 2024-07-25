@@ -1,245 +1,305 @@
 /* Reset CSS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Ensure no horizontal overflow */
 html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 /* Basic styles */
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Pic Container */
 .container-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    z-index: -1;
-    background-image: url('images/pink-sky.jpg');
-    background-size: cover; /* or contain, depending on your preference */
-    background-position: center;
-    background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background-image: url('images/pink-sky.jpg');
+  background-size: cover; /* or contain, depending on your preference */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .pink-sky {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .p {
-    margin-bottom: 180px;
+  margin-bottom: 180px;
 }
 
 .end-para {
-    margin-right: 30%;
+  margin-right: 30%;
 }
 
 h3 {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color: #f369a2;
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-shadow: 
-        1px 1px 2px #bbb,  /* Light shadow for highlight */
-        -1px -1px 2px #fff; /* Dark shadow for depth */
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: #f369a2;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-shadow: 
+      1px 1px 2px #bbb,  /* Light shadow for highlight */
+      -1px -1px 2px #fff; /* Dark shadow for depth */
 }
 
 .letter {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color: #f369a2;
-    font-size: 40px;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: right;
-    text-shadow: 
-        1px 1px 2px #bbb,  /* Light shadow for highlight */
-        -1px -1px 2px #fff; /* Dark shadow for depth */
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: #f369a2;
+  font-size: 40px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: right;
+  text-shadow: 
+      1px 1px 2px #bbb,  /* Light shadow for highlight */
+      -1px -1px 2px #fff; /* Dark shadow for depth */
 }
 
 .letter2 {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color: #f369a2;
-    font-size: 40px;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: left;
-    text-shadow: 
-        1px 1px 2px #bbb,  /* Light shadow for highlight */
-        -1px -1px 2px #fff; /* Dark shadow for depth */
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: #f369a2;
+  font-size: 40px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  text-shadow: 
+      1px 1px 2px #bbb,  /* Light shadow for highlight */
+      -1px -1px 2px #fff; /* Dark shadow for depth */
 }
 
 .skill-row {
-    padding-top: 20px;
-    width: 50%;
-    margin: 50px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color: rgb(211, 27, 103);
-    font-size: 20px;
+  padding-top: 20px;
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: rgb(211, 27, 103);
+  font-size: 20px;
 }
 
 .skill-row-bottom {
-    padding-top: 20px;
-    width: 90%;
-    margin: 50px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color: rgb(211, 27, 103);
-    font-size: 20px;
+  padding-top: 20px;
+  width: 90%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: rgb(211, 27, 103);
+  font-size: 20px;
 }
 
 .skill-row-last {
-    padding-top: 20px;
-    width: 90%;
-    margin: 50px auto 100px auto;
-    line-height: 2;
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    color: rgb(211, 27, 103);
-    font-size: 20px;
+  padding-top: 20px;
+  width: 90%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: rgb(211, 27, 103);
+  font-size: 20px;
 }
 
 .pic1 {
-    width: 30%;
-    float: left;
-    margin-right: 40px;
-    position: relative;
-    bottom: 20px;
-    top: 25px;
+  width: 30%;
+  float: left;
+  margin-right: 40px;
+  position: relative;
+  bottom: 20px;
+  top: 25px;
 }
 
 .pic2 {
-    width: 30%;
-    float: right;
-    position: relative;
-    bottom: 30px;
-    left: 50px;
+  width: 30%;
+  float: right;
+  position: relative;
+  bottom: 30px;
+  left: 50px;
 }
 
 .pic5 {
-    width: 20%;
-    float: left;
-    margin-right: 40px;
-    margin-left: 45px;
-    position: relative;
+  width: 20%;
+  float: left;
+  margin-right: 40px;
+  margin-left: 45px;
+  position: relative;
 }
 
 .pic6 {
-    width: 30%;
-    float: left;
-    margin-right: 45px;
-    margin-left: 45px;
-    position: relative;
-    left: 67%;
-    bottom: 470px;
+  width: 30%;
+  float: left;
+  margin-right: 45px;
+  margin-left: 45px;
+  position: relative;
+  left: 67%;
+  bottom: 470px;
 }
 
+
+/* Button */
+.button {
+  margin: 20px 0;
+  font-family: "Playwrite AU QLD", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 0px;
+  padding-left: 6.5%;
+  
+  
+}
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #ce708f;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(233, 30, 99, 0.5);
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+  transform: scale(1.05);
+  background: #ff6090;
+  box-shadow: 0 0 20px rgba(255, 105, 135, 0.5), 0 0 30px rgba(255, 105, 135, 0.5), 0 0 40px rgba(255, 105, 135, 0.5);
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0099);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
 .container-middle {
-    background-color: #FFE6E6;
-    position: absolute;
-    top: 149%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+  background-color: #FFE6E6;
+  position: absolute;
+  top: 149%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .container-bottom {
-    background-color: #FFCBCB;
-    position: absolute;
-    top: 248%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+  background-color: #FFCBCB;
+  position: absolute;
+  top: 248%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 .container-last {
-    background-color: #FFEFEF;
-    position: absolute;
-    top: 326%;
-    left: 50%;
-    width: 100%;
-    height: 60%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+  background-color: #FFEFEF;
+  position: absolute;
+  top: 326%;
+  left: 50%;
+  width: 100%;
+  height: 60%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
-    .container-top, .container-middle, .container-bottom, .container-last {
-        position: relative;
-        top: auto;
-        left: auto;
-        transform: none;
-        height: auto;
-        padding: 20px 0;
-    }
+  .container-top, .container-middle, .container-bottom, .container-last {
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+      height: auto;
+      padding: 20px 0;
+  }
 
-    .pink-sky {
-        width: 100%;
-        height: auto;
-        transform: none;
-    }
+  .pink-sky {
+      width: 100%;
+      height: auto;
+      transform: none;
+  }
 
-    h3, .letter, .letter2 {
-        font-size: 24px;
-        text-align: center;
-        margin: 20px 0;
-    }
+  h3, .letter, .letter2 {
+      font-size: 24px;
+      text-align: center;
+      margin: 20px 0;
+  }
 
-    .skill-row, .skill-row-bottom, .skill-row-last {
-        width: 90%;
-        margin: 20px auto;
-        text-align: center;
-    }
+  .skill-row, .skill-row-bottom, .skill-row-last {
+      width: 90%;
+      margin: 20px auto;
+      text-align: center;
+  }
 
-    .pic1, .pic2, .pic5, .pic6 {
-        width: 80%;
-        float: none;
-        margin: 20px auto;
-        display: block;
-        position: relative;
-        left: auto;
-        bottom: auto;
-    }
+  .pic1, .pic2, .pic5, .pic6 {
+      width: 80%;
+      float: none;
+      margin: 20px auto;
+      display: block;
+      position: relative;
+      left: auto;
+      bottom: auto;
+  }
 
-    .end-para {
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
-    }
+  .end-para {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+  }
+  
+
 }
