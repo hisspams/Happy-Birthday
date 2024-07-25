@@ -57,7 +57,7 @@ h2 {
 @media (max-width: 768px) {
     .video-container {
         padding: 10px; /* Adjust padding for smaller screens */
-        margin-top: 20%;
+        margin-top: 50%;
     }
 
     h1 {
