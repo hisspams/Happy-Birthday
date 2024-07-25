@@ -6,6 +6,7 @@ body, html {
 
 .bg-image {
     display: flex;
+    flex-direction: column; /* Arrange children vertically */
     justify-content: center;
     align-items: center;
     padding: 20px; /* Adjust the padding as needed */
@@ -21,21 +22,19 @@ body, html {
     max-width: 600px; /* Max width for larger screens */
     padding: 20px; /* Adjust the padding as needed */
     box-sizing: border-box;
+    text-align: center; /* Center the video container */
 }
 
 .video-container video {
-    width: 60%;
+    width: 100%; /* Full width for responsiveness */
     height: auto;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow here */
 }
 
-
-.reminder {
-    position: relative;
-    right: 9%;
-    padding-left: 30px;
+h1, h2 {
+    text-align: center; /* Center-align text */
+    margin: 20px 0; /* Adjust margins */
 }
 
 h1 {
@@ -43,12 +42,10 @@ h1 {
     font-weight: 400;
     color: rgb(66, 1, 10);
     font-size: 3.5rem;
-    margin: 50px 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-    margin: 20px 0;
     font-family: "Playwrite AU QLD", cursive;
     font-weight: 400;
     font-style: normal;
@@ -56,26 +53,18 @@ h2 {
     font-size: 2rem;
 }
 
-
-
 @media (max-width: 768px) {
-    .video-container video {
-        width: 100%; /* Adjust to full width on smaller screens */
+    .video-container {
+        padding: 10px; /* Adjust padding for smaller screens */
     }
 
     h1 {
         font-size: 2.5rem; /* Adjust font size for smaller screens */
-        margin: 30px 0; /* Adjust margin for smaller screens */
+        margin: 20px 0; /* Adjust margin for smaller screens */
     }
 
     h2 {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
-        margin: 15px 0; /* Adjust margin for smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
     }
-
-    .reminder {
-        right: 0; /* Adjust position for smaller screens */
-        
-    }
-    
 }
