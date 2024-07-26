@@ -74,7 +74,7 @@ h2 {
         height: auto; /* Allow the background to adjust its height */
     }
 
-    .video-container {
+    .video-container, .reminder {
         max-width: 100%; /* Allow full width on smaller screens */
         padding: 10px; /* Adjust padding for smaller screens */
     }
