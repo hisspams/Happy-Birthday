@@ -74,19 +74,27 @@ h2 {
         height: auto; /* Allow the background to adjust its height */
     }
 
-    .video-container, .reminder {
+    .video-container {
         max-width: 100%; /* Allow full width on smaller screens */
         padding: 10px; /* Adjust padding for smaller screens */
+        margin-left: 42%;
     }
 
     .reminder {
         margin-top: 10px; /* Reduce spacing for smaller screens */
+        margin-right: 30%;
     }
 
     h1 {
         font-size: 2.5rem; /* Adjust font size for smaller screens */
+        
     }
 
+    h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        
+    }
+}
     h2 {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
     }
